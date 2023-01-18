@@ -29,4 +29,8 @@ export class IngresoComponent implements OnInit, AfterViewInit {
   ngAfterViewInit(): void {
     this.l.loading = false;
   }
+
+  login() {
+    
+  }
 }

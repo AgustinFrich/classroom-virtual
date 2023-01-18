@@ -1,6 +1,6 @@
 <div class="row" style="padding-left: 20%">
   <div class="pe-5 adaptar col-md-6">
-    <form [formGroup]="forma" (ngSubmit)="LoginPaciente()">
+    <form [formGroup]="forma" (ngSubmit)="login()">
       <h3>Ingreso al sistema</h3>
       <div class="form-group">
         <p class="mb-1 mt-3">Correo electrónico</p>
@@ -50,7 +50,8 @@
     </form>
   </div>
   <div class="adaptar col-md-4" style="max-width: 500px">
-    <div class="card btn btn-light row acceso" *ngFor="let usr of accesos">
+    <!--
+      <div class="card btn btn-light row acceso" *ngFor="let usr of accesos">
       <div (click)="Seleccionar(usr.mail, usr.password)">
         <span>
           <img
@@ -66,5 +67,6 @@
         </span>
       </div>
     </div>
+    -->
   </div>
 </div>
