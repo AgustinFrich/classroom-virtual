@@ -1,0 +1,34 @@
+.invalid {
+  height: 25px;
+  color: red;
+}
+
+@media (min-width: 533px) {
+  .adaptar {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 532px) {
+  .adaptar {
+    margin-top: 125px;
+  }
+}
+
+.text-area {
+  width: 100%;
+  height: 150px;
+  resize: none;
+  border: none;
+}
+
+.text-area:focus {
+  outline: none;
+}
+
+.acceso {
+  border-radius: 30px;
+}
+.row {
+  --bs-gutter-x: 0;
+}

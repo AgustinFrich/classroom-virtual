@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "classroom-virtual": {
+      "hosting": {
+        "frich-classroom": [
+          "classroom-virtual"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "classroom-virtual"
+  }
+}

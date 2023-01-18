@@ -94,6 +94,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "frich-classroom:build:production",
+            "firebaseProject": "classroom-virtual",
+            "firebaseHostingSite": "classroom-virtual"
+          }
         }
       }
     }
